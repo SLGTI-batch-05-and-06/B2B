@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body>...
 
 
 
@@ -37,7 +37,7 @@
                        <img src="IMAGE/LOGOH.png" >
                      </div>
                          <h1>TWO IN ONE <br><br>YOU CAN BUY & SELL HERE!</h1>
-                 </div>
+                    </div>
                     <div class="ii">
                         <a href="" class="btn">Explore Now &#8594;</a>
                     </div>          
@@ -109,7 +109,7 @@
  <hr>
  <div class="AHrT">
     <br>
-   <h1><b> Question? Get in touch</b></h3>
+   <h2><b> Question? Get in touch</b></h2>
     <br>
     9am-6pm on weekdays<br>
     8am-5pm on weekends and mercantile holidays<br><br> 
@@ -138,9 +138,10 @@
 
 
 
-
-    <div class="brand">
-        <div class=" small-container-1">
+<br>
+<br>
+    <div class="brand>
+        <div class=" small-container">
         <div class="row">
             <div class="col5">
                 <img src="IMAGE/download (2).png" class="brand-img">
@@ -168,6 +169,8 @@
 
 
  <!----------------------------------------------footer------------------------------------------------------------->
+ <img src="IMAGE/Group20.png" width="345x" >
+
 
    <div class="footer">
         <div class="container">

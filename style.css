@@ -48,16 +48,12 @@ a {
 
 
 
-p {
-    color: #555;
-
-}
-
 .container {
     max-width: 13000px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+
 
 }
 
@@ -88,7 +84,7 @@ p {
 
 }
 
-.row h1 {
+.header .container .row h1 {
     margin: 1px;
     color: rgb(99, 1, 1);
     font-size: 80px;
@@ -219,14 +215,20 @@ p {
     text-align: center;
 }
 
+
 .AHrT {
+
     text-align: center;
-}
-
-.AHrT h1 {
-
     color: maroon;
 }
+
+
+.AHrT h2 {
+    text-align: center;
+    color: maroon;
+
+}
+
 
 .smallcol2 {
 
@@ -251,12 +253,15 @@ p {
 }
 
 
+
+
+
+
+
 /*----------------------------------------------Brand--------------------------------------------------------------*/
 
 .brand {
-    margin: 40px auto;
-    margin-bottom: 1px;
-    margin-top: -2px;
+    margin: 100px auto;
 
 }
 
@@ -320,7 +325,7 @@ p {
 .footer-co2,
 .footer-co3,
 .footer-co4 {
-    min-width: 250px;
+    min-width: 50px;
     margin-bottom: 10px;
 
 }

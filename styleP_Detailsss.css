@@ -1,0 +1,125 @@
+/*----------------single product details-----------------------------------------------------------*/
+
+
+
+.PDet-Heading .Com-Name {
+
+    text-align: center;
+    color: rgb(124, 111, 9);
+    margin-bottom: 1px;
+}
+
+
+.PDet-Heading h1 {
+    text-align: center;
+    color: maroon;
+
+}
+
+.PDet-Heading .P1 {
+
+    color: dimgrey;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.single-p-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+
+
+
+
+.P_Details h4 {
+    text-align: left;
+    text-underline-position: initial;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+
+
+
+}
+
+.P_Details h3 {
+    text-align: left;
+    color: rgb(16, 126, 6);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
+
+.P_Details P {
+    text-align: left;
+    color: dimgrey;
+    margin-bottom: 5px;
+}
+
+
+.P_Details .small-container .col2-sp img {
+    padding: 0;
+}
+
+.P_Details .small-container .col2-sp {
+    padding: 10px;
+}
+
+.P_Details .small-container .col2-sp .small-img-row {
+    padding-top: 3px;
+}
+
+
+
+.P_Details select {
+    display: block;
+    padding: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(90, 1, 1);
+}
+
+.P_Details input {
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid rgb(90, 1, 1);
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+
+.row .small-img-row {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.row .small-img-col-sp {
+
+    flex-basis: 24%;
+    cursor: pointer;
+}
