@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*----------------------------------------------header--------------------------------------------------------------*/
+
+
+
+.img {
+    max-width: 30;
+    padding-left: 100px;
+    margin-top: -62px;
+
+
+}
+
+
+
+.small-container-3 {
+    max-width: 1800px;
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.postbtn {
+    color: maroon;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------offer image------------------------------ */
+
+
+.offer {
+    background: radial-gradient(#fff, #ddbaba);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col2 .offer-img {
+    padding: 20px;
+    transition: transform 0.8s;
+}
+
+.col2 .offer-img:hover {
+    transform: translateY(-5px);
+}
+
+
+.offer .col2 h1 {
+
+    line-height: 60px;
+    transition: transform 0.8s;
+}
+
+
+.offer .col2 h1:hover {
+    transform: translateY(-5px);
+}
+
+small {
+    color: #ff523b;
+    padding-bottom: 1px;
+}
+
+
+
+.btnn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btnn:hover {
+    background: #563434;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------all products---------------------------------------------------- */
+
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+
+.select {
+    display: block;
+    padding: 5px;
+    border: 1px solid rgb(90, 1, 1);
+}
+
+select:focus {
+    outline: none;
+}
+
+
+
+
+
+/* ----------------------------------------------page button------------------------------------------------------- */
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid maroon;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: #ddbaba;
+    color: rgb(99, 3, 13);
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------testimonial--------------------------------------------------------------*/
+
+
+.testimonial {
+    padding: 20px;
+}
+
+.testimonial .col3 {
+
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 0 20PX 0PX rgba(141, 17, 17, 0.511);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col3 .imgT {
+    width: 50PX;
+    margin-top: 20PX;
+    border-radius: 50%;
+}
+
+.testimonial .col3:hover {
+    transform: translateY(-10px);
+}
+
+
+.testimonial .col3 p {
+    font-size: 15px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col3 h3 {
+    font-weight: 600;
+    color: #901808;
+    font-size: 16px;
+}

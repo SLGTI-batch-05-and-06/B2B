@@ -18,7 +18,7 @@
 
  <!----------------------------------------------header-------------------------------------------------------------->
 
-    <div class="header">
+ <div class="header">
         <div class="container">
            <div class="navbar">
                   <nav>
@@ -37,9 +37,9 @@
                        <img src="IMAGE/LOGOH.png" >
                      </div>
                          <h1>TWO IN ONE <br><br>YOU CAN BUY & SELL HERE!</h1>
-                    </div>
+                 </div>
                     <div class="ii">
-                        <a href="" class="btn">Explore Now &#8594;</a>
+                        <a href="" class="sbtn">Explore Now &#8594;</a>
                     </div>          
         </div>
     </div>

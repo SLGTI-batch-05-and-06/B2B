@@ -1,28 +1,48 @@
 /*----------------single product details-----------------------------------------------------------*/
 
+.col2-com-hd1 {
+
+
+    flex-basis: 75%;
+    min-width: 300px;
+    margin-top: 3px;
+
+}
+
+
+.col2-com-hd2 {
+
+
+    flex-basis: 25%;
+    min-width: 300px;
+    margin-bottom: 3px;
+    margin-top: -32px;
+
+}
+
 
 
 .PDet-Heading .Com-Name {
 
-    text-align: center;
+    text-align: left;
     color: rgb(124, 111, 9);
     margin-bottom: 1px;
 }
 
 
-.PDet-Heading h1 {
+.PDet-Heading .p-Name {
     text-align: center;
     color: maroon;
+    font-size: 50px;
 
 }
 
 .PDet-Heading .P1 {
 
-    color: dimgrey;
+    color: rgba(62, 61, 61, 0.408);
     margin-bottom: 5px;
     font-size: 20px;
     text-align: center;
-    text-align: left;
 }
 
 
@@ -50,9 +70,6 @@
     color: #000;
     font-weight: bold;
     font-size: 30px;
-
-
-
 }
 
 .P_Details h3 {
@@ -62,11 +79,6 @@
     font-size: 40px;
 }
 
-
-
-
-
-
 .P_Details P {
     text-align: left;
     color: dimgrey;
@@ -74,15 +86,15 @@
 }
 
 
-.P_Details .small-container .col2-sp img {
+.P_Details .single-p-container .col2 .productBigImg {
     padding: 0;
 }
 
-.P_Details .small-container .col2-sp {
+.P_Details .single-p-container .col2 {
     padding: 10px;
 }
 
-.P_Details .small-container .col2-sp .small-img-row {
+.P_Details .single-p-container .col2 .small-img {
     padding-top: 3px;
 }
 
@@ -119,7 +131,10 @@ input:focus {
 }
 
 .row .small-img-col-sp {
-
     flex-basis: 24%;
     cursor: pointer;
+}
+
+.v-more {
+    color: rgb(74, 74, 171);
 }

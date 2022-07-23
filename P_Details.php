@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylrHome.css">
     <link rel="stylesheet" href="styleCategory.css">
-    <link rel="stylesheet" href="styleP_Detailsss.css">
+    <link rel="stylesheet" href="styleP_Detail.css">
 
 
     
@@ -53,15 +53,21 @@
 
 
  <div class="PDet-Heading">
-       <div class="row">
-         <h1 class="Com-Name">SFA Private Limited</h1><br>
-       </div>
-       <div class="row">
-                  <h1>Magic Sofa</h1><br>
-         </div>
-        <div class="row">
-                 <p class="p1">Posted 1h ago ,  Colombo</p>
-        </div>  
+   <div class="row">
+
+   <div class="col2-com-hd1">
+               <h1 class="p-Name">Magic Sofa</h1>
+                <p class="p1">Posted 1h ago ,  Colombo</p>
+      </div>
+      <div class="col2-com-hd2">
+           
+                <img src="IMAGE/Com-Logo.jpg" WIDTH="125PX"  class="Com-Logo">
+             <h1 class="Com-Name">SFA Private Limited</h1>
+      </div>
+
+   </div>
+      
+        
  </div>
 
 
@@ -100,13 +106,7 @@
                       <img src="IMAGE/S4.jpg" width="100%"  class="small-img">
                    </div>
 
-
-
                   </div>
-
-           
-
-
           </div>
           
 
@@ -114,11 +114,6 @@
 
           <div class="col2">
 
-
-
-
-
-                  <br>
            
             <h4>RS: 100.00</h4>
             <h3>RS: 50. 00</H3>
@@ -159,9 +154,26 @@
 
 
 
+<!---------------------------------title------------------------------------------------->
+
+<div class="small-continer">
+   <div class="row row-2">
+      <h2>Related Products</h2>
+      <p class="v-more">View More</P>
+   </div>
+</div>
+
+
+<br>
+<hr>
+
+
+
+
+
 <div class="Add">
   <div class="row">
-  <img src="IMAGE/coca.jpg" width="1200px" height="230px" >
+  <img src="IMAGE/coca.jpg" width="1200px" height="200px" >
   </div>
 </div>
 

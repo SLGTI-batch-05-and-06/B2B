@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylrHome.css">
-    <link rel="stylesheet" href="styleCategory.css">
+    <link rel="stylesheet" href="styleCategoryy.css">
 
 
 </head>
@@ -32,6 +32,7 @@
                         </b>
                      </ul>
                   </nav>
+                  <img src="IMAGE/pst.png" class="pst" width="155px">
                       
             </div>           
        </div>
@@ -42,7 +43,7 @@
                    </div>
 
 
-
+ 
 
 
 
@@ -53,9 +54,7 @@
 
 <!---------------------------------------------category product--------------------------------------------------------------->
 
-
-
-
+          
 
 
 
@@ -64,6 +63,28 @@
  <!---------------------------------------------category product--------------------------------------------------------------->
 
  <div class="small-container-3">
+
+                
+
+
+ <div class="row  row-2">
+        <h2>All Product</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Default by Price</option>
+            <option>Default by Popularity</option>
+            <option>Default by Rating</option>
+            <option>Default by Sale</option>
+        </select>
+    </div>
+                  
+
+
+
+
+
+
+
         <h2 class="title">Featured Product</h2>
         <div class="row">
 
@@ -104,8 +125,32 @@
 
         </div>
 
+    </div>
+</div>
 
 
+ <!----------------------------------------------Offer product--------------------------------------------------------------->
+ <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col2">
+                    <img src="IMAGE/Offer-i.jpg" class="offer-img" width="380" height="250">
+                </div>
+                <div class="col2">
+                    <p>Exclisive Availabe on Restore</p>
+                    <h1>Smart Band</h1>
+                    <small>Its reusable watch. u can use every time and every where so its wonderfull. Larg a 39.6%
+                        display with adjestable,so every thing is clear as can be.</small><br>
+                    <a href="" class="btnn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+           <!----------------------------------------------Love more------------------------------------------------------------->
+
+
+    <div class="small-container-3">
 
         <h2 class="title">LOVE MORE...</h2>
         <div class="row">
@@ -224,7 +269,23 @@
 
         </div>
 
-       
+
+
+
+
+
+
+
+
+
+       <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+       </div>
+
     </div>
                    
 
