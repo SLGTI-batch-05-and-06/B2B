@@ -1,4 +1,5 @@
-<?php include_once('script.php');?>
+<?php include_once('script.php');
+include_once('Config.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

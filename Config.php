@@ -4,12 +4,12 @@ $username = "root";
 $password="";
 $dbname = "B2B";
 
-$CONN = NEW MYSQLI($servername,$username ,$password,$dbname);
+$conn = NEW MYSQLI($servername,$username ,$password,$dbname);
 
 //chek connection
-if ($con>connect_error){
+if ($conn->connect_error){
     die("connection failed:" . $conn->connect_error);
-    
-
-    ?>
+   
 }
+?>
+    

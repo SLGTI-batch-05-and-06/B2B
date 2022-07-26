@@ -1,4 +1,5 @@
-<?php include_once('script.php');?>
+<?php include_once('script.php');
+include_once('Config.php');?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -181,7 +182,7 @@
 <!----------------------------------------------footer------------------------------------------------------------->
 
 
-<?php include ("ZFooter.php")?>
+<?php include ("ZFooter.php");?>
 
 
 

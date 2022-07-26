@@ -141,18 +141,5 @@
     font-size: 13px;
 }
 
-/* -------------------footr logo--------------------------- */
-.footer .logo1 {
-    margin-right: -20px;
-    margin-bottom: -150px;
-    cursor: pointer;
-    filter: grayscale(100%);
-}
-
-.footer .logo1:hover {
-
-    filter: grayscale(0);
-}
-
 
 /* -------------------back---------------------------- */

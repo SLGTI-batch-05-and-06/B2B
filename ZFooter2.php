@@ -1,8 +1,12 @@
- <!----------------------------------------------footer------------------------------------------------------------->
- <img src="IMAGE/Group20.png" width="345x" >
+<!----------------------------------------------footer------------------------------------------------------------->
 
 
-   <div class="footer">
+
+
+
+  
+
+    <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col1">
@@ -14,21 +18,21 @@
                     </div>
                 </div>
                 <div class="footer-col2">
-                <h3>More From TakTook</h3>
+                    <h3>More From TakTook</h3>
                     <ul>
                         <li><a href="#">Sell Fast </a></li>
                         <li><a href="#">Membership </a></li>
                         <li><a href="#">Banner Ads </a></li>
-                       </ul>
+                    </ul>
                 </div>
 
                 <div class="footer-col3">
                     <h3> Help & Suppor</h3>
                     <ul>
                         <li><a href="#">FAQ </a></li>
-                        <li><a href="#">Sell Fast  </a></li>
+                        <li><a href="#">Sell Fast </a></li>
                         <li><a href="#">Privacy Policy </a></li>
-                       
+
                     </ul>
                 </div>
 
@@ -42,17 +46,19 @@
                     </ul>
                 </div>
 
-                 <div class="logo">
+                <div class="logo">
                     <img src="IMAGE/LOGOH.png" width="155px">
                 </div>
 
 
             </div>
             <hr>
-            <p class="copyright">Copyright 2022 - Takk Took</p>
+            <p class="copyright">Copyright 2022 - Tak Tiik.cm</p>
         </div>
     </div>
 
-    <div class="MoreToLove">
-        
-    </div>
+
+
+
+
+
