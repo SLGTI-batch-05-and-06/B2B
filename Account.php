@@ -55,7 +55,7 @@ include_once('Config.php');?>
                           <button type="submit" class="submit-btn">Submit</button>
                           <input type="checkbox"><span>Remember Me</span>
                      </form>
-                     <button type="button" class="Sign-up-btn" onclik="openRegister()">I'm New Here</button>
+                     <button type="button" class="Sign-up-btn" oncliCk="openRegister()">I'm New Here</button>
                      <a href="">Forgot Password</a>
                   </div>
 
@@ -70,7 +70,7 @@ include_once('Config.php');?>
                           <button type="submit" class="submit-btn">Submit</button>
                           <input type="checkbox"><span>Remember Me</span>
                      </form>
-                     <button type="button" class="Sign-up-btn" onclic="openLogin()">I'h an Account</button>
+                     <button type="button" class="Sign-up-btn" onclicK="openLogin()">I'h an Account</button>
                      <a href="">Forgot Password</a>
 
                   </div>
