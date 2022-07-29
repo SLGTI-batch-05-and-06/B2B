@@ -78,7 +78,7 @@ if(isset($_POST['SUBMIT'])){
         <?php
         if (isset ($Message)){
             foreach($Message as $Message) {
-                echo '<div class ="message">'.$Message.'</div>';
+                echo '<div class ="message" onclick="this.remove();">'.$Message.'</div>';
             }
         }
         ?>

@@ -1,15 +1,14 @@
 <?php 
 include_once 'Config.php';
 session_start();
-$USER_ID = $_SESSION['user_id'];
+$User_ID =  $_SESSION['User_ID'] ;
 
-if(!isset($USER_ID)){
+if(!isset($User_ID)){
     header('location:Login.php');
 }
 
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,23 +31,37 @@ if(!isset($USER_ID)){
 
 <!----------------------------------------------ABOUT------------------------------------------------------------->
 
+
+<?php
+        if (isset ($Message)){
+            foreach($Message as $Message) {
+                echo '<div class ="message">'.$Message.'</div>';
+            }
+        }
+        ?>
+
+
+
+
+
+
+
  <div class="container">
     <div class="row">
 
     <div class="profile">
-        <?php
+        
+        <?php   
 
 
-       
-            $select = mysqli_query($conn,"SELECT * FROM 'user_info' WHERE ID = '$USER_ID'") or die ('query faild3');
 
-            if(mysqli_num_rows($select)>0){
-                $fetch =mysqli_fetch_assoc($select);
-            }
-        ?>
+         
 
-        <h3><?php   echo $fetch['Name']; ?></h3>
+            $select= mysqli_query($conn,"SELECT * FROM 'user_info' WHERE ID = '$User_ID'") or die('err');
 
+
+
+?>
 
 
     </div>
@@ -77,7 +90,7 @@ if(!isset($USER_ID)){
 
  <!----------------------------------------------footer------------------------------------------------------------->
 
-    <?php include ("ZFooter.php")?>
+    <?php include ("ZFooter2.php")?>
 
     
 

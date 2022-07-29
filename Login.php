@@ -6,15 +6,15 @@ if(isset($_POST['SUBMIT'])){
 
     $email = mysqli_real_escape_string($conn,$_POST['EMAIL']);
     $password = mysqli_real_escape_string($conn, md5($_POST['PASSWORD']));
-;
-    $select=0;
+
+    
 
     $select = mysqli_query($conn,"SELECT * FROM `user_info`  WHERE Email='$email' && Password ='$password'") or die ('query faild');
 
     
     if(mysqli_num_rows($select)>0){
         $row =mysqli_fetch_assoc($select);
-        $_SESSION['user_id'] =$row['ID'];
+        $_SESSION['User_ID'] =$row['ID'];
         header('location:AddProct.php');
         
      }else{
@@ -55,7 +55,7 @@ if(isset($_POST['SUBMIT'])){
  
 
 <div class="FORM_CONTAINER">
-  <div class="row">
+  <div class="row2">
       <form action="" method="POST" enctype="multipart/form-data">
         <h3> LOGIN NOW</h3>
 

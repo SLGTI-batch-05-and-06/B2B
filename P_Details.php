@@ -114,8 +114,8 @@ include_once('Config.php');?>
 
             <h4>Product details</h4>
             <p>SOFA PROTECTOR: A must-have for homes with children and pets, this couch cover protects
-              furniture from dust, stains, wear, and tear while offering a fresh look. (No matter how
-               your sofa looks or feels now, with our slipcover it will seem like a new sofa!）
+              furniture from dust, stains, wear, and tear while offering a fresh look. No matter how
+               your sofa looks or feels now, with our slipcover it will seem like a new sofa!
 
               HIGH-QUALITY FABRIC: Made of high-quality fabric, this slipcover has a smooth soft feel and is easy to care for.
                 Instantly improve the look of any sofa in your home with these stretch couch covers!</p>

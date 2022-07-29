@@ -115,3 +115,14 @@ DELETE_BTN {
     color: rgb(207, 181, 181);
     font-size: 20px;
 }
+
+
+
+.row2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 650px;
+
+}}
