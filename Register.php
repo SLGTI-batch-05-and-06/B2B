@@ -1,5 +1,7 @@
 <?php 
+include_once('script.php');
 include_once 'Config.php';
+
 if(isset($_POST['SUBMIT'])){
     $name = mysqli_real_escape_string($conn,$_POST['NAME']);
     $email = mysqli_real_escape_string($conn,$_POST['EMAIL']);
@@ -56,17 +58,22 @@ if(isset($_POST['SUBMIT'])){
     <link rel="stylesheet" href="StyleRegister.css">
     <link rel="stylesheet" href="styleCategoryy.css">
 
-</head>
+    <link href="U_ASSETS/CSS/bootstrap.rtl.min.css" rel="styleCategoryy.css">
 
+    <script src= "U_ASSETS/JS/bundle.min.JS "></script>
+    <script src= "U_ASSETS/JS/jquery-3.6.0.min.JS "></script>
+
+
+</head>
 <body>
+
+
 
 <!----------------------------------------------HEADER------------------------------------------------------------->
 
 <?php include ("ZHeader2.php");?>
 
 <!----------------------------------------------ABOUT------------------------------------------------------------->
-
- 
 
 <div class="FORM_CONTAINER">
   <div class="row">
