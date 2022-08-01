@@ -1,6 +1,7 @@
 <?php 
 include_once('script.php');
 include_once 'Config.php';
+session_start();
 
 if(isset($_POST['SUBMIT'])){
     $name = mysqli_real_escape_string($conn,$_POST['NAME']);
@@ -13,12 +14,24 @@ if(isset($_POST['SUBMIT'])){
     $image_folder = 'UPLOADED_IMAGE/'.$image;
     $select=0;
 
-    $select = mysqli_query($conn,"SELECT * FROM `user_info`  WHERE Email='$email' && Password ='$password'") or die ('query faild');
+    $select = mysqli_query($conn,"SELECT * FROM `user_info`  WHERE Email='$email' && Password ='$password'") or die ('somethimg wrong');
 
     
     if(mysqli_num_rows($select)>0){
         $Message[]='user already exit';
     }else{
+
+        //CHECK EMAIL
+        $check_email_query = "SELECT Email FROM `user_info` WHERE Email='$email' ";
+        $check_email_query_run = mysqli_query($conn,$check_email_query);
+
+        if(mysqli_num_rows($check_email_query_run)>0)
+        {
+            $Message[]="Email Already insert!";
+          
+        }else{
+            
+           //CHECK PASSWORD
            if($password != $cpassword ){
             $Message[]='confirm password not matched!';
            }elseif($image_size > 2000000){
@@ -36,8 +49,7 @@ if(isset($_POST['SUBMIT'])){
                 $Message[]='Registration failed!';
                }
            }
-
-
+        }
     }
 }
 ?>
@@ -58,6 +70,9 @@ if(isset($_POST['SUBMIT'])){
     <link rel="stylesheet" href="StyleRegister.css">
     <link rel="stylesheet" href="styleCategoryy.css">
 
+
+
+<!-------------------------boostrap links ------------------------------------------->
     <link href="U_ASSETS/CSS/bootstrap.rtl.min.css" rel="styleCategoryy.css">
 
     <script src= "U_ASSETS/JS/bundle.min.JS "></script>
@@ -91,13 +106,9 @@ if(isset($_POST['SUBMIT'])){
         ?>
 
 
-
-
-
-
-        <input type="text" name="NAME" placeholder="Enter Username" class="box" required> 
-        <input type="email" name="EMAIL" placeholder="Enter Email" class="box" required> 
-        <input type="Password" name="PASSWORD" placeholder="Enter Password" class="box" required> 
+        <input type="text" name="NAME" placeholder="Enter your Username here......." class="box" required> 
+        <input type="email" name="EMAIL" placeholder="Enter your Email here........" class="box" required> 
+        <input type="Password" name="PASSWORD" placeholder="Enter Password here......" class="box" required> 
         <input type="Password" name="cPASSWORD" placeholder="Confirm  Password" class="box" required> 
         <input type="file" name="IMAGE"  class="box" accept="IMAGE/jpg, IMAGE/jpeg, IMAGE/png">
         <input type="submit" name='SUBMIT' value="Register Now" class="BtnRegister">
@@ -106,23 +117,7 @@ if(isset($_POST['SUBMIT'])){
       </form>
   </div>
 
-     
-    
-
-
-
  </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -130,13 +125,13 @@ if(isset($_POST['SUBMIT'])){
 
  <!----------------------------------------------footer------------------------------------------------------------->
 
-    <?php include ("ZFooter2.php")?>
+ <?php include ("ZFooter2.php")?>
 
     
 
 
 
 
-</body>
+ </body>
 
 </html>

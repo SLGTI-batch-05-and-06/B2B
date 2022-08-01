@@ -13,9 +13,17 @@ if(isset($_POST['SUBMIT'])){
 
     
     if(mysqli_num_rows($select)>0){
-        $row =mysqli_fetch_assoc($select);
-        $_SESSION['User_ID'] =$row['ID'];
+        $row =mysqli_fetch_array($select);
+        $UserName= $row['Name'];
+        $UserEmail= $row['Email'];
+
+        $_SESSION['User_ID'] =[
+            'Name'=>$UserName,
+            'Email'=>$UserEmail,
+            
+        ];
         header('location:AddProct.php');
+        $Message[]='Login succesfully!';
         
      }else{
         $Message[]='Incorrect Email or Password';
