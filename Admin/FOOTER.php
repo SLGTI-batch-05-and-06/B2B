@@ -26,36 +26,32 @@
         </div>
       </div>
     </div>
-  </footer>
-  </main>
+    </footer>
+    </main>
 
 
-  <script src="../ASSET/JS/bootstrap.bundle.min.js"></script>
-  <script src="../ASSET//JS/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../ASSET//JS/plugins/smooth-scrollbar.min.js"></script>
+                                <script src="./ASSET/JS/bootstrap.bundle.min.js"></script>
+                                <script src="./ASSET//JS/plugins/perfect-scrollbar.min.js"></script>
+                                <script src="./ASSET//JS/plugins/smooth-scrollbar.min.js"></script>
 
-<!-- JavaScript ----------------------------ALARTIFY JS-->
-<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+                                <!-- JavaScript ----------------------------ALARTIFY JS-->
+                                <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
-<script>
-  <?php if (isset ($_SESSION['message']))
-  
-  { 
-    ?>
-  alertify.set('notifier','position', 'top-right');
- alertify.success ('<?= $_SESSION['message']; ?>');
+                                <script>
+                                    <?php 
+                                        if (isset ($_SESSION['message']))
+                                  
+                                        { 
+                                              ?>
+                                                alertify.set('notifier','position', 'top-right');
+                                                alertify.success ('<?=$_SESSION['message']; ?>');
 
- <?php }  
-
- unset($_SESSION['message']);
- 
- 
-  ?>
-</script>
-
-
-
-
+                                              <?php  
+                                                unset($_SESSION['message']);
+                                        }
+                                    ?>
+                                  
+                                </script>
 
 
   </body>

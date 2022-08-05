@@ -2,3 +2,20 @@
     border: 1px solid #b3a1a1 !important;
     padding: 8px 10px;
 }
+
+.form-select{
+    border: 1px solid #b3a1a1 !important;
+    padding: 8px 10px;
+
+}
+
+
+
+
+.coldsg {
+    flex-basis: 10%;
+    padding: 2px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}

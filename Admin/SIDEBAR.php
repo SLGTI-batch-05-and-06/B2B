@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
   
 
@@ -30,13 +36,13 @@
       <li class="nav-item">
         <a class="nav-link text-white " href="../Admin/ADD-CATEGORY.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-            <i class="material-icons opacity-10">table_view</i>
+            <i class="material-icons opacity-10">+</i>
           </div>
           <span class="nav-link-text ms-1">Add Cetegory</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/PRODUCT.php">
+        <a class="nav-link text-white " href="../Admin/PORDUCT.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">table_view</i>
           </div>
@@ -46,9 +52,18 @@
       <li class="nav-item">
         <a class="nav-link text-white " href="../Admin/ADD-PORDUCT.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-            <i class="material-icons opacity-10">table_view</i>
+            <i class="material-icons opacity-10">+</i>
           </div>
           <span class="nav-link-text ms-1">Add Products</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white " href="../Admin/Colllection.php">
+          <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+            <i class="material-icons opacity-10">table_view</i>
+          </div>
+          <span class="nav-link-text ms-1">Colllection</span>
         </a>
       </li>
     </ul>

@@ -25,7 +25,7 @@
 
 
   <!-- CSS Files -->
-  <link id="pagestyle" href="../ASSET/CSS/material-dashboard.min.css?v=3.0.0" rel="stylesheet" />
+  <link id="pagestyle" href="./ASSET/CSS/material-dashboard.min.css?v=3.0.0" rel="stylesheet" />
   <link rel="stylesheet" href="StyleAll.css">
 
 
@@ -45,6 +45,6 @@
 <body class="g-sidenav-show  bg-gray-200">
 
 
-    <?php  include('SIDEBAR.php') ?>
+<?php  include('SIDEBAR.php') ?>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <?php  include('NAVEBAR.php') ?>

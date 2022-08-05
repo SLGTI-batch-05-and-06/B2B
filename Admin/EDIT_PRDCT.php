@@ -40,12 +40,18 @@ function getAll($table)
           <div class="col-md-12">
                 <div class="card">
                             <div class="card-header">
-                                <h4>Add Product</h4>
+                                <h4>Edit Product</h4>
                             </div>
                      <div class="card-body">
                          <form action="CADE.php" method="POST" enctype="multipart/form-data">
                                  <div class="row">
                                         <div class="col-md-12">
+                                            <?php 
+                                            ?>
+
+
+
+
                                                 <label class="mb-0">Select Category</label>
                                                 <select name="Category_Id" class="form-select mb-2">
                                                     <option selected>Select Category</option>
@@ -147,7 +153,7 @@ function getAll($table)
 
 
                                         <div class="col-md-12">
-                                                <button type="submit"  class="btn btn-primary" name="add_PRODUCT_SUBMIT">Save</button>
+                                                <button type="submit"  class="btn btn-primary" name="Updt_PRODUCT_SUBMIT">Update</button>
                                             
                                         </div>
                                 </div>

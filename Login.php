@@ -1,3 +1,7 @@
+
+
+
+
 <?php 
 include_once 'Config.php';
 session_start();
@@ -26,6 +30,7 @@ if(isset($_POST['SUBMIT'])){
         $Message[]='Login succesfully!';
         
      }else{
+        header('location:Login.php');
         $Message[]='Incorrect Email or Password';
            
 

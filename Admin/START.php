@@ -1,6 +1,7 @@
 <?php  
- 
+   include_once('script.php'); 
  include ('HEADER.php');
+ include('SIDEBAR.php');
 ?>
 
 

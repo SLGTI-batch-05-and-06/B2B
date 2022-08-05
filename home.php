@@ -119,8 +119,10 @@ include_once('Config.php');?>
 
 
           <h1>
-            <button type="button" class="postBtn">Post Add</button><br>
-            <button type="button" class="MblBtn">Maybe Later</button></h1>
+            <a href="Login.php">
+            <button type="submit"  class="postBtn" >Post Add</button><br></a>
+            <a href="Category.php">
+            <button type="submit" class="MblBtn" >Maybe Later</button></h1></a>
 
 
 

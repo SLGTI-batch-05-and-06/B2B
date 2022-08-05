@@ -1,12 +1,7 @@
-<?php
-session_start();
-
-function redirect($url , $message)
-
-$_SESSION['message'] =$message
-header ('Location:'.$url);
-exit();
-
-
-
+<?php function getByID($table , $id)
+{
+    global $conn;
+    $query = "SELECT* FROM $table WHERE ID='$id' ";
+    return $query_run = mysqli_query($conn,$query);
+}
 ?>
