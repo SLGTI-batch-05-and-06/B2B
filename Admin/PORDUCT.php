@@ -1,8 +1,10 @@
 <?php  
-session_start();
+
   include_once('script.php'); 
-  include_once ('HEADER.php');
   include_once ('Config.php');
+  include_once ('HEADER.php');
+   
+ 
 ?>
 
 
@@ -32,14 +34,6 @@ session_start();
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -108,17 +102,13 @@ function getAll($table)
 
                                             <td>
                                             <a href="EDIT_PRDCT.php?ID=<?=$Item['ID'];?>" class="btn btn-primary">Edit</a>
-                                           <!-- <a href="Colllection.php?edit=<?php echo $Item['ID'];?>" class="btn btn-primary">Edit</a>-->
+                                           <!-- <a href="Colllection.php?edit=<php echo $Item['ID'];?>" class="btn btn-primary">Edit</a>-->
                                            </td>
 
                                            <td>
-                                           <form action="Edt_Product_btn" method="$_POST">
-                                                 <input type="hidden" name="PRODUCT_ID" value="<?=$Item['ID'];?> ">
-                                                  <button type ="submit" class="btn btn-danger" name="Delete_product_btn">Delete</button>
-                                           </form>
-
-                                          <!---  <a href="CATEGORY.php?delete=<?php echo $Item['ID']; ?>" class="btn btn-primary"> <i class="fas fa-trash"></i> Delete </a>--->
+                                                  <button type ="button" class="btn btn-sm btn-danger delete_product_btn" VALUE="<?= $Item['ID']?>">Delete</button>
                                             </td>
+
                                             </tr>
                                             <?php 
                                 }
@@ -145,4 +135,4 @@ function getAll($table)
    </div>
 
   
-<?php include ('FOOTER.php'); ?>
+   <?php include ('FOOTER.php'); ?>

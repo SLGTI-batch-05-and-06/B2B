@@ -1,5 +1,7 @@
 
-
+<?php
+$page = substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1); 
+?>
 
 
 
@@ -18,7 +20,8 @@
   <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-white " href="../pages/dashboard.html">
+        <!---CHOICE COLOUR--->
+        <a class="nav-link text-white   <?= $page =="./START.php"?'active bg-gradient-primary':''; ?>" href="./START.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">dashboard</i>
           </div>
@@ -26,7 +29,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/CATEGORY.php">
+        <a class="nav-link text-white <?= $page =="CATEGORY.php"?'active bg-gradient-primary':''; ?>" href="./CATEGORY.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">table_view</i>
           </div>
@@ -34,7 +37,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/ADD-CATEGORY.php">
+        <a class="nav-link text-white   <?= $page =="ADD-CATEGORY.php"?'active bg-gradient-primary':''; ?>" href="./ADD-CATEGORY.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">+</i>
           </div>
@@ -42,7 +45,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/PORDUCT.php">
+        <a class="nav-link text-white   <?= $page =="PORDUCT.php"?'active bg-gradient-primary':''; ?>" href="./PORDUCT.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">table_view</i>
           </div>
@@ -50,7 +53,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/ADD-PORDUCT.php">
+        <a class="nav-link text-white   <?= $page =="ADD-PORDUCT.php"?'active bg-gradient-primary':''; ?>" href="./ADD-PORDUCT.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">+</i>
           </div>
@@ -59,7 +62,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-white " href="../Admin/Colllection.php">
+        <a class="nav-link text-white   <?= $page =="USR_VIEW.php"?'active bg-gradient-primary':''; ?>" href="./USR_VIEW.php">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">table_view</i>
           </div>

@@ -1,3 +1,6 @@
+
+
+
 <footer class="footer pt-5">
     <div class="container-fluid">
       <div class="row align-items-center justify-content-lg-between">
@@ -29,10 +32,12 @@
     </footer>
     </main>
 
-
+ 
+                                <script src="./ASSET/JS/jquery-3.6.0.min.js"></script>
                                 <script src="./ASSET/JS/bootstrap.bundle.min.js"></script>
-                                <script src="./ASSET//JS/plugins/perfect-scrollbar.min.js"></script>
-                                <script src="./ASSET//JS/plugins/smooth-scrollbar.min.js"></script>
+                                <script src="./ASSET/JS/perfect-scrollbar.min.js"></script>
+                                <script src="./ASSET/JS/smooth-scrollbar.min.js"></script>
+                                <script src="./ASSET/JS/CUSTOM.js"></script>
 
                                 <!-- JavaScript ----------------------------ALARTIFY JS-->
                                 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>

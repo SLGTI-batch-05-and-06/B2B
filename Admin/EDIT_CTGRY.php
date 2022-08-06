@@ -35,7 +35,12 @@ function getByID($table , $id)
                         {
                             $data = mysqli_fetch_array($CAtegory);
                 ?>
-                           <div class="card-body">
+                <div class="card">
+                        <div class="card-header">
+                                <h4>Edit Category</h4>
+                                <a href="CATEGORY.php" class="btn btn-primary float-end">Back</a>
+                        </div>
+                <div class="card-body">
                                       <form action="CADE.php" method="POST" enctype="multipart/form-data">
                                           <div class="row">
                                               <div class="col-md-6">
@@ -56,10 +61,11 @@ function getByID($table , $id)
 
                                               <div class="col-md-12">
                                                       <label for="">Upload_Image</label>
-                                                      <input type ="file" name="IMAGE" class="form-control">
+                                                      <input type="hidden" name="old_image" value="<?= trim($data['Image_Name'])?>">
+                                                      <input type ="file" name="IMAGE" class="form-control mb-2">
 
                                                       <label for="">Current_Image</label>
-                                                      <input type="hidden" name="old_image" value="<?= trim($data['Image_Name'])?>">
+                                                     
                                                       <img src="./UPLOADED_IMAGE_CATEGORY/<?= trim($data['Image_Name']) ?>" width="50px" height="50px" alt="">
                                               </div>
 
@@ -94,6 +100,9 @@ function getByID($table , $id)
                                          </div>
                                     </form>
                           </div>
+                        
+                </div>
+                           
 
                                   
                               <?php

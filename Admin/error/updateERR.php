@@ -30,11 +30,14 @@
     //                      //   $update_fil_nam  = time().'.'.$image_ext;
     //             }else{
     //                         $update_fil_nam =$old_image;
+     //                         $path = './UPLOADED_IMAGE_CATEGORY';
+
+
     //                         redirect("EDIT_CTGRY.php?ID=$CAT_ID" , "went wrong!");
     //             }
 
 
-    //                         $path = './UPLOADED_IMAGE_CATEGORY';
+   
 
 
     //                         $update_query = "UPDATE `category` SET `,

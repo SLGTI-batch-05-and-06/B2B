@@ -1,4 +1,8 @@
+<?php  
+include_once ('Config.php');
+   include_once('script.php'); 
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +41,11 @@
 
 </head>
 
+<?php  
+//session_start();
+  include_once('script.php'); 
+
+?>
 
 
 

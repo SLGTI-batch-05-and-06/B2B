@@ -73,7 +73,7 @@ function getAll($table)
 
                                         <div class="col-md-6">
                                                 <label class="mb-0">Name</label>
-                                                <input type="text" name="NAME" placeholder="Enter category name" class="form-control mb-2  required">
+                                                <input type="text" name="NAME" placeholder="Enter product name" class="form-control mb-2"  required">
                                         </div>
 
                                         <div class="col-md-6">
@@ -83,12 +83,12 @@ function getAll($table)
 
                                         <div class="col-md-12">
                                                 <label class="mb-0">Samll Description</label>
-                                                <input type="textarea" rows="3" name="Samll_Description" placeholder="Enter Description"  class="form-control mb-2" required> 
+                                                <textarea rows="3" name="Samll_Description" placeholder="Enter Description"  class="form-control mb-2" required> </textarea>
                                         </div>                                            
 
                                         <div class="col-md-12">
                                                 <label class="mb-0">Description</label>
-                                                <input type="textarea" rows="3" name="Description" placeholder="Enter Description"  class="form-control mb-2" required> 
+                                                <textarea rows="3" name="Description" placeholder="Enter Description"  class="form-control mb-2" required> </textarea>
                                         </div> 
 
                                         <div class="col-md-6">

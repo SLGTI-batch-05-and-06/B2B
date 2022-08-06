@@ -1,5 +1,5 @@
 <?php  
-session_start();
+
   include_once('script.php'); 
   include_once ('HEADER.php');
   include_once ('Config.php');
