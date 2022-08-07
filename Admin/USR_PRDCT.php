@@ -1,6 +1,7 @@
 <?php  
 session_start();
 include('./FUNCTION/USR_FUNTN.php');
+include_once('script.php'); 
 
 if(isset($_GET['CATGRY']))
 {
@@ -59,7 +60,7 @@ if(isset($_GET['CATGRY']))
                                                                     ?>
                                                                     
                                                                     <div class="col-md-3 mb-2">
-                                                                        <a href="#">
+                                                                        <a href="Prd_VIEW.php?product_ID=<?= trim($Item['Slug']); ?>">
                                                                             <div class="card shadow">
                                                                                 <div class="card-body">
                                                                                     <img src="./UPLOADED_IMAGE_CATEGORY/<?= trim($Item['Image']); ?>" alt="Product Image" class="w-100">

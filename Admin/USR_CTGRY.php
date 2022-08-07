@@ -4,7 +4,7 @@ include('./FUNCTION/USR_FUNTN.php');
 
 ?>
 
-
+<link rel="stylesheet" href="zUSR_CTGRY.css">
 
 
 <div class="py-3 bg-primary">
@@ -31,10 +31,10 @@ include('./FUNCTION/USR_FUNTN.php');
                                           
                                            <div class="col-md-3 mb-2">
                                               <a href="USR_PRDCT.php?CATGRY=<?=($Item['Slug']); ?>">
-                                                  <div class="card shadow">
+                                                  <div class="card ">
                                                       <div class="card-body">
-                                                          <img src="./UPLOADED_IMAGE_CATEGORY/<?= trim($Item['Image_Name']); ?>" alt="Category Image" class="w-100">
-                                                          <h4 class="text-center"><?= $Item['Cat_Name']; ?></h4>
+                                                          <img src="./UPLOADED_IMAGE_CATEGORY/<?= trim($Item['Image_Name']); ?>" alt="Category Image" class="Cat_Img">
+                                                          <P class="P_CAT_NAM"><?= $Item['Cat_Name']; ?></P>  
                                                       </div>
                                                   </div>
                                               </a>

@@ -42,3 +42,5 @@ function getAll($table)
     return $query_run = mysqli_query($conn,$query);
 }
 ?>
+
+

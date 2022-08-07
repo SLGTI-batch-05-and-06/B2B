@@ -97,7 +97,7 @@ function getAll($table)
 
                                             <td><?= $Item['ID']; ?></td>
                                             <td><?php echo $Item['Name']; ?></td>
-                                            <td><?= $Item['Status'] == '0'?"visible":"hidden"?></td>
+                                            <td><?= $Item['Status'] == '1'?"visible":"hidden"?></td>
                                             <td><img src="./UPLOADED_IMAGE_CATEGORY/<?php echo trim($Item['Image']); ?>" height="100" alt="">
 
                                             <td>

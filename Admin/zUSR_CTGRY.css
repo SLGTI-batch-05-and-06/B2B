@@ -1,0 +1,17 @@
+.Cat_Img{
+    height: 60px;
+    width: 60px;
+
+   
+}
+
+.P_CAT_NAM{
+    text-align:right;
+    font-size: 25px;
+}
+
+.card{
+    height: 130px;
+    box-shadow: 0 0 40px 20px rgba(82, 1, 1, 0.26);
+   
+}
